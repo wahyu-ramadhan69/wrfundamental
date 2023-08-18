@@ -16,13 +16,13 @@ public class Asci {
         a = sc.nextLine();
         char[] chArr = a.toCharArray();
         for (int i = 0; i < chArr.length; i++) {
-        b = chArr[i];
-        if ((b >= 65 && b <= 90) || (b >= 97 && b <= 122)) {
-        JumlahAsci += b;
-        }
+            b = chArr[i];
+            if ((b >= 65 && b <= 90) || (b >= 97 && b <= 122)) {
+                JumlahAsci += b;
+            }
         }
         System.out.println(JumlahAsci);
+        sc.close();
 
-       
     }
 }
