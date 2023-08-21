@@ -60,7 +60,7 @@ public class Main {
                                 case 1:
                                         if (size < data.length) {
                                                 System.out.println("masukkab data baru");
-                                                String newData = sc.next();
+                                                String newData = sc.nextLine();
                                                 data[size] = newData;
                                                 size++;
                                         } else {
@@ -78,7 +78,7 @@ public class Main {
                                         int updateIndex = sc.nextInt();
                                         if (updateIndex >= 0 && updateIndex < size) {
                                                 System.out.print("Masukkan data baru: ");
-                                                String updatedData = sc.next();
+                                                String updatedData = sc.nextLine();
                                                 data[updateIndex] = updatedData;
                                                 System.out.println("Data berhasil diubah.");
                                         } else {
