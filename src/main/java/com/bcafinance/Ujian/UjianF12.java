@@ -71,5 +71,6 @@ public class UjianF12 {
                 data = "";
             }
         }
+        sc.close();
     }
 }

@@ -29,6 +29,7 @@ public class UjianF11 {
             String hasil = pertama[a] + provider[b] + "-" + tigaDigit + "-" + terakhir;
             System.out.println(hasil);
             terakhir.setLength(0);
+            sc.close();
         }
 
     }
